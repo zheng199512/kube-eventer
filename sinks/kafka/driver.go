@@ -50,12 +50,13 @@ type kafkaSink struct {
 
 
 func eventToPoint(event *kube_api.Event, clusterName string) (*KafkaSinkPoint, error) {
-	if !event.eventTime {
-		event.FirstTimestamp=event.eventTime
-		event.LastTimestamp=event.eventTime
+
+	if !event.EventTime {
+		event.FirstTimestamp = event.EventTime
+		event.LastTimestamp = event.EventTime
 	}
 
-	sinkPoint := KafkaSinkPoint{
+	var sinkPoint = KafkaSinkPoint{
 		EventKind:            event.InvolvedObject.Kind,
 		EventMessage:         event.Message,
 		EventName:            event.InvolvedObject.Name,
