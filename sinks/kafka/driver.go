@@ -54,7 +54,7 @@ func eventToPoint(event *kube_api.Event, clusterName string) (*KafkaSinkPoint, e
 		event.FirstTimestamp = event.CreationTimestamp
 		event.LastTimestamp = event.CreationTimestamp
 	}
-	var sinkPoint = KafkaSinkPoint{
+	sinkPoint := KafkaSinkPoint{
 		EventKind:            event.InvolvedObject.Kind,
 		EventMessage:         event.Message,
 		EventName:            event.InvolvedObject.Name,
