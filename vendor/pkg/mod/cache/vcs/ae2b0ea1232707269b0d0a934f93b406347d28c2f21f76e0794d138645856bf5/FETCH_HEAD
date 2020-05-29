@@ -1,0 +1,15 @@
+0013387e964819bf4096622a1b2712bfab8bee51		branch '0.5.x' of https://github.com/DataDog/zstd
+0e71ac6221c995a831bb393da70730c3d3a07091		branch '1.x' of https://github.com/DataDog/zstd
+738e0d09845977b117460fe0bc897dc955b12f23		branch 'edouard.schweisguth/auto-update' of https://github.com/DataDog/zstd
+2bf71ec4836011b92dc78df3b9ace6b40e65f7df		branch 'master' of https://github.com/DataDog/zstd
+4d7050ddd77b8b7c55016838f4685e9a9b7a8dd7		branch 'viq111/mem_stresstest' of https://github.com/DataDog/zstd
+2bf71ec4836011b92dc78df3b9ace6b40e65f7df		tag 'v0.5' of https://github.com/DataDog/zstd
+0727e1752ea5db67e0ede4e0fb7168ddc6ead61b		tag 'v1.3.0' of https://github.com/DataDog/zstd
+aebefd9fcb99f22cd691ef778a12ed68f0e6a1ab		tag 'v1.3.4' of https://github.com/DataDog/zstd
+c7161f8c63c045cbc7ca051dcc969dd0e4054de2		tag 'v1.3.5' of https://github.com/DataDog/zstd
+69c5189b6513b1503c9c5332fb2e96362e51d547		tag 'v1.3.8' of https://github.com/DataDog/zstd
+809b919c325d7887bff7bd876162af73db53e878		tag 'v1.4.0' of https://github.com/DataDog/zstd
+2347a397da4ee9c6b8226d4aff82c302d0e52773		tag 'v1.4.1' of https://github.com/DataDog/zstd
+8fdb579680349497546a04291cedfff98a7829a0		tag 'v1.4.4' of https://github.com/DataDog/zstd
+0e71ac6221c995a831bb393da70730c3d3a07091		tag 'v1.4.5' of https://github.com/DataDog/zstd
+98d11f8c7930f3f911956cf147fffdeef511fce1		tag 'v1.4.5-rc.1' of https://github.com/DataDog/zstd

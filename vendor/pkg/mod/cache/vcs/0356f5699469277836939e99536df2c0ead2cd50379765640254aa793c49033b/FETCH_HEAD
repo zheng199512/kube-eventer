@@ -1,0 +1,4 @@
+bc5e1eb39098107b921343118e77e62cac839ca8		tag 'v11.0.0' of https://github.com/kubernetes/client-go
+0aa5eab985ac602d9911b5dae9fc82c778f0bf7a	not-for-merge	tag 'kubernetes-1.14.0' of https://github.com/kubernetes/client-go
+39a5cae021b00894ffb8150e2a4359b0cdea48d9	not-for-merge	tag 'kubernetes-1.14.0-rc.1' of https://github.com/kubernetes/client-go
+cb479c5d58d5db51c6945e783e695e4f8fe57556	not-for-merge	tag 'kubernetes-1.14.1-beta.0' of https://github.com/kubernetes/client-go
