@@ -49,6 +49,7 @@ type kafkaSink struct {
 }
 
 func eventToPoint(event *kube_api.Event, clusterName string) (*KafkaSinkPoint, error) {
+	//support time createtime once
 	zeroTime := time.Time{}
 	if event.EventTime.Time != zeroTime {
 		event.FirstTimestamp = event.CreationTimestamp
